@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="./assest/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script> <!-- Add this line -->
+</head>
+<body style="background: rgb(2,0,36); background: radial-gradient(circle, rgba(2,0,36,1) 23%, rgba(33,121,182,1) 61%, rgba(3,8,95,1) 90%, rgba(211,192,192,0.8885679271708683) 100%);">
+    <div class="resume">
+        <!-- Personal Information -->
+        <section id="personal-info" class="section"></section>
+            <h2 style="color: rgb(203, 37, 22);">Personal Information</h2>
+            <div class="profile">
+                <img src="asset/c8768d4a-f1e8-421b-b7a1-231144301fe8.jpg" alt="Profile Picture" class="profile-pic" height="200px," width="200px">
+                <div class="info">
+                    <h1 style="color: purple;">Iqra Rao</h1>
+                    <p style="color: purple;">Email: iqrarao553@gmail.com</p>
+                    <p style="color: purple;">Phone: 03178070311</p>
+                    <p style="color: purple;">linked in account: Iqra Rao</p>
+                    <p style="color: purple;">github account: iqra sarfaraz</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section">
+            <h2 style="color: rgb(203, 37, 22);">Education</h2>
+            <ul>
+                <li style="color: purple"><strong style="color: rgb(203, 37, 22);">Qualification </strong> - Governor house IT university (GIAIC) 
+             AND also student of SMIT,  (Allama Iqbal Open University)</li>
+                <li style="color: purple"><strong style="color: rgb(203, 37, 22);">Bs Pak Studies from</strong> - Allama Iqbal Open University</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section" contenteditable="true">
+            <h2 style="color: rgb(203, 37, 22);">Skills</h2>
+            <ul>
+                <li style="color: purple">HTML</li>
+                <li style="color: purple">CSS</li>
+                <li style="color: purple">Bootstrap</li>
+                <li style="color: purple">JavaScript</li>
+                <li style="color: purple">TypeScript</li>
+                <li style="color: purple">Next.Js in Process</li>
+                <li style="color: purple">Communication skills</li>
+                <li style="color: purple">Typing</li>
+                <li style="color: purple">Active listening</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="work-experience" class="section" contenteditable="true">
+            <h2 style="color: rgb(203, 37, 22);">Work Experience</h2>
+            <ul>
+                <li style="color: purple"><strong>No any Experience with any company i'll apply for internships</strong></li>
+            </ul>
+        </section>
+
+        <!-- Toggle Buttons -->
+        <div class="toggle-buttons">
+            <!-- <button id="toggle-skills" class="we" style="color: rgb(203, 37, 22); outline: purple; border: 2px solid purple; color: blue;">Skills</button> -->
+        </div>
+
+        <!-- Username Input and Action Buttons -->
+        <div id="username-container">
+            <input type="text" id="username" placeholder="Enter your username">
+            <button id="generate-url">Generate Resume URL</button>
+        </div>
+
+        <div id="actions">
+            <button id="copy-link">Copy Resume Link</button>
+            <button id="download-pdf">Download Resume as PDF</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="asset/main.ts"></script>
+</body>
+</html>

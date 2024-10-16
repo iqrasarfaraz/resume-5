@@ -1,0 +1,171 @@
+/* .resume {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px; 
+    background-color: whitesmoke;
+}
+
+.section {
+    margin-bottom: 20px; 
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px; 
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 40%;
+    width: 150px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.toggle-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.we {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.we:hover {
+    background-color: rgb(122, 73, 122);
+}
+
+@media (max-width: 992px) {
+    .resume {
+        width: 95%;
+    }
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .info h1 {
+        font-size: 20px;
+    }
+} */
+
+.resume {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px; 
+    background-color: whitesmoke;
+}
+
+.section {
+    margin-bottom: 20px; 
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px; 
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 40%;
+    width: 150px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.toggle-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#username-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007BFF;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+#actions button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 992px) {
+    .resume {
+        width: 95%;
+    }
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .info h1 {
+        font-size: 20px;
+    }
+}
